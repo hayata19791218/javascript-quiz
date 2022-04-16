@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>クイズアプリ</title>
+</head>
+<body>
+  <div class="quizzes-container">
+      <h1>クイズ  </h1>
+      <div class="quiz-container">
+        <h2>第1問</h2>
+        <div>
+          <p>枕草子の作者はだれ？</p>
+        </div>
+        <form id="quiz-1">
+          <input name="answer1" type="radio" value="紫式部">紫式部</input>
+          <input name="answer1" type="radio" value="清少納言">清少納言</input>
+          <input name="answer1" type="radio" value="小野小町">小野小町</input>
+        </form>
+          <p id="information1">選択してください</p>
+        <button class="btn" type="button" id="question1-answer">回答する</button>
+        <p id="answer1"></p>
+      </div>
+      <div class="quiz-container">
+        <h2>第2問</h2>
+        <div>
+          <p>国旗に5つの星がある国は？</p>
+        </div>
+        <form id="quiz-2">
+          <input name="answer2" type="radio" value="中国">中国</input>
+          <input  name="answer2" type="radio" value="ニュージーランド">ニュージーランド</input>
+          <input name="answer2" type="radio" value="オーストラリア">オーストラリア</input>
+        </form>
+        <p id="information2">選択してください</p>
+        <button class="btn" type="button" id="question2-answer">回答する</button>
+        <p id="answer2"></p>
+      </div>
+      <div class="quiz-container">
+        <h2>第3問</h2>
+        <div>
+          <p>世界で一番長い川は？</p>
+        </div>
+        <form id="quiz-3">
+          <input name="answer3" type="radio" value="アマゾン">アマゾン</input>
+          <input name="answer3" type="radio" value="ミシシッピ">ミシシッピ</input>
+          <input name="answer3" type="radio" value="ナイル">ナイル</input>
+        </form>
+        <p id="information3">選択してください</p>
+        <button class="btn" type="button" id="question3-answer">回答する</button>  
+        <p id="answer3"></p>
+      </div>
+      <div id="score-container">
+        <p id="scoreMessage">ここに点数が表示されます</p>
+      </div>
+      <button class="btn-score" type="button" id="showScore">合計得点を見る</button>
+      <a href="" id="reset">クイズをやり直す</a>
+    </div>
+  <script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>
