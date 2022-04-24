@@ -2,9 +2,6 @@
 
 let score = 0;
 
-const correct = "正解です";
-const incorrect = "不正解です";
-
 const answer1 = document.getElementById('answer1');
 const information1 = document.getElementById('information1');
 const selectMurasaki = document.querySelector(`[name='murasaki']`);
